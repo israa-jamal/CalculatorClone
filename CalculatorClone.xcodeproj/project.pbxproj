@@ -14,6 +14,7 @@
 		042710B0247577F500BCF4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042710AF247577F500BCF4A3 /* Assets.xcassets */; };
 		042710B3247577F500BCF4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042710B1247577F500BCF4A3 /* LaunchScreen.storyboard */; };
 		042710E12475A7D800BCF4A3 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042710E02475A7D800BCF4A3 /* RoundButton.swift */; };
+		042710E62475C5C100BCF4A3 /* ZeroButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042710E52475C5C000BCF4A3 /* ZeroButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		042710B2247577F500BCF4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042710B4247577F500BCF4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042710E02475A7D800BCF4A3 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		042710E52475C5C000BCF4A3 /* ZeroButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				042710AA247577F200BCF4A3 /* ViewController.swift */,
 				042710E02475A7D800BCF4A3 /* RoundButton.swift */,
+				042710E52475C5C000BCF4A3 /* ZeroButton.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				042710E12475A7D800BCF4A3 /* RoundButton.swift in Sources */,
 				042710AB247577F200BCF4A3 /* ViewController.swift in Sources */,
+				042710E62475C5C100BCF4A3 /* ZeroButton.swift in Sources */,
 				042710A7247577F200BCF4A3 /* AppDelegate.swift in Sources */,
 				042710A9247577F200BCF4A3 /* SceneDelegate.swift in Sources */,
 			);
@@ -315,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T5GA7DTMUP;
 				INFOPLIST_FILE = CalculatorClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.esraa.CalculatorClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T5GA7DTMUP;
 				INFOPLIST_FILE = CalculatorClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.esraa.CalculatorClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
