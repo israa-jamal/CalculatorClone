@@ -9,12 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
 
+    @IBOutlet weak var ZeroButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-
+        ZeroButton.layer.cornerRadius = ZeroButton.frame.width/5
 
 }
-
+}
